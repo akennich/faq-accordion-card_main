@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  background-color: hsl(240deg, 73%, 65%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 53rem;
+  height: 26rem;
+  background-color: white;
+  border-radius: 1em;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  height: auto;
+  background-image: url("./images/illustration-woman-online-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 2em;
+  left: -5em;
+}
+
+.left img {
+  position: relative;
+  top: 25%;
+  left: -3em;
+}
+
+.right {
+  width: 50%;
+  height: auto;
+  padding: 4em 4em 4em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.allquestions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.question h2 {
+  font-size: 14px;
+}
+.question img {
+  width: 10px;
+  height: 8px;
+}
+
+.item p {
+  color: hsl(240deg, 6%, 50%);
+}
+
+.hide {
+  display: none;
+}
+
+.blacked {
+  color: black;
+}
+
+.grayish {
+  color: hsl(237deg, 12%, 33%);
+}
+
+.upDown {
+  transform: scaleY(-1);
+}
+
+/*# sourceMappingURL=style.css.map */
