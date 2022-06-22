@@ -49,8 +49,12 @@ main {
     top: 2em;
     left: -5em;
 }
+#mobile {
+        display: none;
+    }
 .left {
-    img {
+    
+    #desktop {
         position: relative;
         top: 25%;
         left: -3em;
@@ -81,7 +85,6 @@ main {
     margin-bottom: 0.5em;
     h2 {
         font-size: 14px;
-        // color: $Very-dark-grayish-blue;
     }
     img {
         width: 10px;
@@ -89,6 +92,9 @@ main {
     }
 }
 .item {
+    border-bottom: 1px solid rgb(128, 128, 128, 0.3) ;
+    border-width: thin;
+    padding-bottom: 0.5em;
     p {
         color: $Dark-grayish-blue;
     }
