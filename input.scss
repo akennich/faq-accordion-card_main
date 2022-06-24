@@ -25,7 +25,7 @@ body {
     height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 12px;
-    background-color: $Soft-blue;
+    background-image: linear-gradient(to bottom, $Soft-violet,$Soft-blue );
     display: flex;
     flex-direction: column;
     justify-content: center;
